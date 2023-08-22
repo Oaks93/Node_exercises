@@ -1,0 +1,23 @@
+$ curl -I --verbose http://localhost:3000
+*   Trying 127.0.0.1:3000...
+* Connected to localhost (127.0.0.1) port 3000 (#0)
+> HEAD / HTTP/1.1
+> Host: localhost:3000
+> User-Agent: curl/7.88.1
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< Content-Type: application/json
+Content-Type: application/json
+< Location: Mars
+Location: Mars
+< Date: Tue, 22 Aug 2023 08:56:15 GMT
+Date: Tue, 22 Aug 2023 08:56:15 GMT
+< Connection: keep-alive
+Connection: keep-alive
+< Keep-Alive: timeout=5
+Keep-Alive: timeout=5
+
+<
+* Connection #0 to host localhost left intact
